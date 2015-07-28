@@ -35,3 +35,5 @@ while isRunning:
     if main_sel == "1":
         clear_console()
         turtle_calc()
+    elif main_sel == "0":
+        isRunning = False
