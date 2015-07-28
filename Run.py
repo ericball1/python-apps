@@ -21,6 +21,7 @@ isRunning = True
 
 while isRunning:
 
+    set_title("Python Apps")
     clear_console()
 
     print("Eric's Python Scripts")
@@ -33,6 +34,7 @@ while isRunning:
     main_sel = input("Pick One: ")
 
     if main_sel == "1":
+        set_title("Turtle Calculator")
         clear_console()
         turtle_calc()
     elif main_sel == "0":
