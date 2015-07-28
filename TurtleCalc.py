@@ -512,4 +512,5 @@ def turtle_calc():
         print("The answer is " + answer_string)
         print("Our turtle can not draw more than five digits")
 
+    tess.write("Close this window to continue!")
     wn.mainloop()
